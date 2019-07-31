@@ -11,7 +11,10 @@ conda activate iAnalyzeR
 #### Create the metadata file
 The metadata file resides in the working directory and lists the required information for each sample (e.g. sample name, path to files, sample type, and *etc*). For example:
 
-|---|---|---|| Sample.name  |    fastq         |lib.type|sample.type| sample.rep ||---|---|---|| hi_r1        | hi_r1.fastq.gz   |   F    |     high   |      1 || lo_r1        | ro_l1.fastq.gz   |   F    |     low    |      1 |
+| sample  | fastq  | lib.type  | sample.type  | sample.rep  |
+|---|---|---|---|---|
+| hi_r1        | hi_r1.fastq.gz   |   F    |     high   |      1 |
+| lo_r1        | ro_l1.fastq.gz   |   F    |     low    |      1 |
 
 #### Run the analysis
 The following command will then run the analysis:

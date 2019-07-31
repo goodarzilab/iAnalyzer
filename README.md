@@ -14,7 +14,7 @@ The metadata file resides in the working directory and lists the required inform
 | sample  | fastq  | lib.type  | sample.type  | sample.rep  |
 |---|---|---|---|---|
 | hi_r1        | hi_r1.fastq.gz   |   F    |     high   |      1 |
-| lo_r1        | ro_l1.fastq.gz   |   F    |     low    |      1 |
+| lo_r1        | ro_l1.fastq.gz   |   R    |     low    |      1 |
 
 #### Run the analysis
 The following command will then run the analysis:

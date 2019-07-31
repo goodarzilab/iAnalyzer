@@ -1,0 +1,15 @@
+name: iAnalyzeR
+channels:
+  - bioconda
+  - r
+  - conda-forge
+dependencies:
+  - bowtie2
+  - cutadapt
+  - numpy
+  - pandas
+  - r
+  - r-base
+  - r-tidyverse
+  - samtools
+  - umi_tools

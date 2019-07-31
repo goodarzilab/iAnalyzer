@@ -1,4 +1,4 @@
-# iAnalyzer
+# iAnalyzeR
 An analytical pipeline for powered analysis of CRISPR screens
 
 ### Setting up the environment
@@ -7,7 +7,7 @@ Use the following command to create a conda environment with the essential packa
 conda env create --file=iAnalyzeR.yaml
 conda activate iAnalyzeR
 ```
-### Run iAnalyzer
+### Run iAnalyzeR
 #### Create the metadata file
 The metadata file resides in the working directory and lists the required information for each sample (e.g. sample name, path to files, sample type, and *etc*). For example:
 Sample.name  |    fastq         |lib.type|sample.type| sample.rep
